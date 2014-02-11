@@ -1,0 +1,181 @@
+@font-face {
+    font-family: 'ostrich_sansmedium';
+    src: url('fonts/ostrich-regular-webfont.eot');
+    src: url('fonts/ostrich-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/ostrich-regular-webfont.woff') format('woff'),
+         url('fonts/ostrich-regular-webfont.ttf') format('truetype'),
+         url('fonts/ostrich-regular-webfont.svg#ostrich_sansmedium') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'ostrich_sanscondensed_light';
+    src: url('fonts/ostrich-light-webfont.eot');
+    src: url('fonts/ostrich-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/ostrich-light-webfont.woff') format('woff'),
+         url('fonts/ostrich-light-webfont.ttf') format('truetype'),
+         url('fonts/ostrich-light-webfont.svg#ostrich_sanscondensed_light') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body{
+	font-family: helvetica, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6{
+	font-weight: normal;
+	font-family: 'ostrich_sansmedium';
+}
+
+ul{
+	list-style: none;
+	padding: 0;
+
+}
+
+img{
+	max-width: 100%;
+}
+
+.container{
+	margin: 0 auto;
+	width: 70%;
+}
+
+section#topo{
+	background: url(../images/bg-topo.jpg) no-repeat fixed 0 -80px;
+	background-size: cover;
+
+}
+
+section#servicos{
+	background: url(../images/bg-servicos2.jpg) no-repeat;
+}
+
+section#contato{
+	background: url(../images/bg-contato2.jpg) no-repeat;
+}
+
+section{
+	width: 100%;
+	display:block;	
+	color: #FFF;
+	position: relative;
+	float: left;
+	clear: both;
+
+	background-size: cover;
+}
+
+section img{
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+section#topo h2{
+	line-height: 3.8em;
+	margin:200px 0 0 100px;
+	display: block;
+}
+
+section *{
+	position: relative;
+}
+
+
+.logo{
+	width: 30%;
+	height: 20%;
+	margin: 5% auto;
+}
+
+.logo a{
+	display: block;
+}
+
+.texto-grande{
+	font-size: 6em;
+}
+
+section#servicos h2, section#contato h2{
+	color:#f2fb03;
+	font-size: 4em;
+}
+
+section#servicos h3, section#contato h3{
+	font-size: 3.2em;
+	margin: 0
+}
+
+section#servicos li{
+	height: 170px;
+	width: 45%;
+	display: block;
+}
+
+.restauracao, .pintura, .reforma{
+	padding-left:350px;
+}
+
+.restauracao{
+	background: url(../images/restauracao.png) no-repeat 0% 50%;
+}
+
+.pintura{
+	background: url(../images/pintura.png) no-repeat 0% 50%;
+}
+
+section#contato p{
+	margin: 30px 0;
+}
+
+.reforma{
+	background: url(../images/reforma.png) no-repeat 0% 50%;
+}
+
+.telefone{
+	font-size: 5em;
+	font-family: 'ostrich_sansmedium';
+	line-height: 1em;
+}
+
+.horario{
+	font-size: 2em;
+	font-family: 'ostrich_sansmedium';
+	line-height: 1em;	
+}
+.localizacao{
+	font-size: 3em;
+	font-family: 'ostrich_sansmedium';
+	line-height: 1em;	
+}
+
+nav{
+	width: 150px;
+	float: right;
+	top: -350px;
+}
+
+nav a{
+	display: block;
+	height: 140px;
+	width: 140px;
+	line-height: 320px;
+	margin: 0 0 60px 0;
+	text-align: center;
+	color: #FFF;
+	text-decoration: none;
+}
+nav a.menu-servicos{
+	background: url(../images/menu-servicos.png) no-repeat;
+}
+
+nav a.menu-contato{
+	background: url(../images/menu-contato.png) no-repeat;
+}
+
