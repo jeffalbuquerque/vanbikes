@@ -47,17 +47,19 @@ img{
 }
 
 section#topo{
-	background: url(../images/bg-topo.jpg) no-repeat fixed 0 -80px;
+	background: url(../images/bg-topo.jpg) no-repeat fixed 0 0;
 	background-size: cover;
 
 }
 
 section#servicos{
-	background: url(../images/bg-servicos2.jpg) no-repeat;
+	background: url(../images/bg-servicos2.jpg) no-repeat fixed 0 0;
+	background-size: cover;
 }
 
 section#contato{
-	background: url(../images/bg-contato2.jpg) no-repeat;
+	background: url(../images/bg-contato2.jpg) no-repeat fixed 0 0;
+	background-size: cover;
 }
 
 section{
